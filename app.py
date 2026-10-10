@@ -21,21 +21,9 @@ while True:
     try:
         question = input("You: ").strip()
 
-                if question.lower() == "exit":
+        if question.lower() == "exit":
             print("AI: Goodbye!")
             break
-
-        if question.lower() == "/help":
-            print("\nCommands:")
-            print("/help  - Show available commands")
-            print("/clear - Clear conversation history")
-            print("exit   - Stop the assistant\n")
-            continue
-
-        if question.lower() == "/clear":
-            messages = messages[:1]
-            print("AI: Conversation history cleared.\n")
-            continue
 
         if not question:
             print("Please enter a question.\n")
