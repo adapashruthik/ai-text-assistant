@@ -1,0 +1,11 @@
+# DevOps Fundamentals
+
+DevOps combines software development and IT operations practices to improve collaboration and software delivery.
+
+Docker packages applications and their dependencies into containers. Containers help applications run consistently across environments.
+
+Continuous Integration (CI) automatically builds and tests code changes. Continuous Delivery or Deployment (CD) automates preparing or releasing software.
+
+GitHub Actions can automate workflows such as running tests, building Docker images, and publishing artifacts.
+
+Monitoring helps teams understand application health and performance. Logs provide records of events that help engineers troubleshoot problems.
